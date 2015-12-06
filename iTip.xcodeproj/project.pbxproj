@@ -15,6 +15,7 @@
 		EDB43E1D1C145DEF003CDAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB43E1B1C145DEF003CDAB4 /* LaunchScreen.storyboard */; };
 		EDB43E281C145DEF003CDAB4 /* iTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB43E271C145DEF003CDAB4 /* iTipTests.m */; };
 		EDB43E331C145DEF003CDAB4 /* iTipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB43E321C145DEF003CDAB4 /* iTipUITests.m */; };
+		EDB43E421C1462C7003CDAB4 /* TipCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB43E411C1462C7003CDAB4 /* TipCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 		EDB43E131C145DEF003CDAB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EDB43E141C145DEF003CDAB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDB43E171C145DEF003CDAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDB43E191C145DEF003CDAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB43E191C145DEF003CDAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/Lorenzo/Documents/Development/iOS/iTip/iTip/Assets.xcassets; sourceTree = "<absolute>"; };
 		EDB43E1C1C145DEF003CDAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB43E1E1C145DEF003CDAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB43E231C145DEF003CDAB4 /* iTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,8 @@
 		EDB43E2E1C145DEF003CDAB4 /* iTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB43E321C145DEF003CDAB4 /* iTipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTipUITests.m; sourceTree = "<group>"; };
 		EDB43E341C145DEF003CDAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB43E401C1462C7003CDAB4 /* TipCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalculator.h; sourceTree = "<group>"; };
+		EDB43E411C1462C7003CDAB4 /* TipCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EDB43E111C145DEF003CDAB4 /* AppDelegate.m */,
 				EDB43E131C145DEF003CDAB4 /* ViewController.h */,
 				EDB43E141C145DEF003CDAB4 /* ViewController.m */,
+				EDB43E401C1462C7003CDAB4 /* TipCalculator.h */,
+				EDB43E411C1462C7003CDAB4 /* TipCalculator.m */,
 				EDB43E161C145DEF003CDAB4 /* Main.storyboard */,
 				EDB43E191C145DEF003CDAB4 /* Assets.xcassets */,
 				EDB43E1B1C145DEF003CDAB4 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB43E151C145DEF003CDAB4 /* ViewController.m in Sources */,
+				EDB43E421C1462C7003CDAB4 /* TipCalculator.m in Sources */,
 				EDB43E121C145DEF003CDAB4 /* AppDelegate.m in Sources */,
 				EDB43E0F1C145DEF003CDAB4 /* main.m in Sources */,
 			);

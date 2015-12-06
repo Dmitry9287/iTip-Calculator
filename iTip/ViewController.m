@@ -7,21 +7,25 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "TipCalculator.h"
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+@synthesize textField, rateChooser, finalPriceLabel, finalTipLabel;
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)performTipCalculation:(id)sender {
+    
+    TipCalculator *calculator = [[TipCalculator alloc] init];
+    NSInteger selectedIndex = rateChooser.selectedSegmentIndex;
+    NSString *textFieldContent = textField.text;
+    float price = (float)[textFieldContent intValue];
+    
+    NSLog(@"The selected index is %ld", (long)selectedIndex);
+    float tip = [calculator calculateTip:price howMuchYouLiked:selectedIndex];
+    
+    finalPriceLabel.text = [NSString stringWithFormat:@"You have to pay %.2f$", price + tip];
+    finalTipLabel.text = [NSString stringWithFormat:@"the amount of the tip is %.2f$", tip];
+    
 }
 
 @end

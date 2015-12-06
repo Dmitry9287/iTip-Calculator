@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextField *textField;
+@property (nonatomic, strong) IBOutlet UISegmentedControl *rateChooser;
+@property (nonatomic, strong) IBOutlet UILabel *finalPriceLabel;
+@property (nonatomic, strong) IBOutlet UILabel *finalTipLabel;
+
+- (IBAction)performTipCalculation:(id)sender;
+
 
 @end
 
